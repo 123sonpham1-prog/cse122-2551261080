@@ -1,1 +1,56 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #C2185B;
+    font-size: 26px;
+    text-align: center;
+    margin: 0 0 22px;
+}
+
+.bo-cuc-2-cot {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+}
+
+.cot-trai {
+    text-align: center;
+}
+
+.cot-trai img {
+    width: 220px;
+}
+
+.cot-phai {
+    width: 100%;
+}
+.nhan-muc {
+    display: inline-block;
+    background-color: #FFC0CB;
+    color: black;
+    font-size: 16px;
+    padding: 4px 10px;
+    margin: 0 0 8px;
+}
+
+.ds-vuong {
+    list-style-type: square;
+    line-height: 1.9;
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+.ds-tron {
+    list-style-type: circle;
+    line-height: 1.9;
+    margin-top: 4px;
+}
+.ban-quyen {
+    color: #0000EE;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 16px;
+}
 
