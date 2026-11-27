@@ -1,0 +1,98 @@
+:root {
+    --xanh: #1565C0;
+    --do: #C62828;
+    --trang: #FFFFFF;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bai-viet {
+    width: 820px;
+    max-width: 100%;
+    padding: 28px;
+
+    background-color: #FFFFFF;
+}
+
+h1 {
+    color: var(--xanh);
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin: 0 0 16px;
+}
+h1 span {
+    display: block;
+    font-size: 0.7em;
+}
+
+.anh-banner {
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+    border-radius: 8px;
+
+    margin: 16px 0;
+}
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+
+    margin: 0 0 14px;
+}
+p::first-letter {
+    color: var(--do);
+    font-size: 3rem;
+    font-weight: bold;
+
+    float: left;
+    line-height: 0.85;
+    padding: 0.1rem 0.35rem 0 0;
+}
+
+.thanh-phu {
+    background-color: var(--xanh);
+    color: var(--trang);
+
+    text-align: right;
+    padding: 6px 12px;
+
+    margin: 14px 0;
+    font-size: 14px;
+}
+strong {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+    .bai-viet {
+        padding: 16px;
+    }
+    h1 {
+        font-size: 23px;
+    }
+    .anh-banner {
+        height: 200px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
